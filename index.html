@@ -469,12 +469,13 @@
       </div>
     </footer>
     <!--Modal window-->
+
     <div class="backdrop is-open">
       <div class="modal">
         <button
           class="modal-button"
           type="button"
-          area-label="Modal close button"
+          aria-label="Modal close button"
         >
           <svg class="modal-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -541,16 +542,16 @@
           </div>
           <div class="form-agreement-main">
             <input
-              class="checkbox visually-hidden"
+              class="field-checkbox visually-hidden"
               id="user-privacy"
               type="checkbox"
               name="user-privacy"
               value="true"
             />
-            <label class="form-agreement" for="user-privacy">
+            <label class="modal-label form-agreement" for="user-privacy">
               <span class="form-agreement-checkbox">
                 <svg class="form-agreement-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
+                  <use href="./images/icons.svg#icon-button-checked"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
